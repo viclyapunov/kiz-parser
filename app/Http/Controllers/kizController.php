@@ -8,7 +8,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use Goutte\Client;
 
-class kiz-Controller extends BaseController
+class kizController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
